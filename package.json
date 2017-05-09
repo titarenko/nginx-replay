@@ -1,0 +1,14 @@
+{
+  "name": "nginx-replay",
+  "version": "1.0.0",
+  "description": "Replay requests from nginx log",
+  "main": "index.js",
+  "repository": "git@github.com:titarenko/nginx-replay.git",
+  "author": "Constantin Titarenko <constantin.titarenko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "csv-parse": "^1.2.0",
+    "request": "^2.81.0"
+  }
+}
