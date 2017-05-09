@@ -8,6 +8,7 @@ const log = process.argv[3]
 
 if (!host || !log) {
 	console.error('args missing!\ncall me following way: node . http://mysite.com mylog.log')
+	process.exit(-1)
 }
 
 parse(fs.readFileSync(log, 'utf-8')).map(row => {
